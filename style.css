@@ -1,3 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "Plantin-Light";
+	src:url('assets/font/Plantin-Light.woff') format("woff");
+	font-weight:400;
+	font-style:normal;
+}
+
 *,*:before,*:after{
 box-sizing:border-box
 }
@@ -209,7 +219,7 @@ font-size:16px
 }}
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5{
 margin:0 0 17.5px;
-font-family:Work Sans,sans-serif;
+font-family: "Plantin-Light";
 font-style:normal;
 font-weight:600;
 line-height:1.2;
@@ -926,7 +936,7 @@ background-color:black;
 border-radius:16px;
 cursor:pointer;
 font-size:13px;
-font-family:CourierPrime;
+font-family:"Plantin-Light";
 width:175px;
 margin-left:10px;
 margin-bottom:10px;
@@ -951,7 +961,7 @@ padding-bottom:10px!important
 
 .h4.grid-view-item__title.product-card__title{
 transform:scaleY(1.17);
-font-family:MerchantCopyDoublesize;
+font-family:"Plantin-Light";
 font-size:1vw;
 line-height:1.4vw;
 bottom:-.6vw;
@@ -967,7 +977,7 @@ float:left
 font-size:14px;
 line-height:16px;
 font-weight:initial;
-font-family:HelvMono
+font-family:"Plantin-Light"
 }
 .template-index .product-specs,.template-collection .product-specs{
 min-height:95px
@@ -1003,7 +1013,7 @@ align-items:flex-end
 }
 .inner-footer *{
 color:#000;
-font-family:helvetica
+font-family:"Plantin-Light";
 }
 .inner-footer:after{
 content:"";
@@ -1051,7 +1061,7 @@ color:#000;
 border-radius:20px!important;
 cursor:pointer;
 font-size:13px;
-font-family:CourierPrime;
+font-family:"Plantin-Light";
 line-height:13px;
 display:block!important;
 margin:5px 0 0;
