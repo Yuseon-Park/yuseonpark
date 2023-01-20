@@ -2,6 +2,13 @@
     font-family: "GroteskRemix-regular";
     src: url('assets/font/GroteskRemix-regular.woff') format('woff')
 }
+body{
+    -ms-overflow-style: none;
+    }
+    
+   ::-webkit-scrollbar {
+     display: none;
+   }
 
 .slick-slider{
 position:relative;
@@ -1078,8 +1085,12 @@ transition:none
 .box{
 background:no-repeat;
 background-color:#f7f7f7;
-background-size:contain
+background-size:contain;
+-ms-overflow-style: none;
 }
+.box::-webkit-scrollbar{
+    display:none;
+  }
 .ratio-container{
 position:relative
 }
@@ -7798,82 +7809,6 @@ margin-bottom:.5em
 .page-legal ol li,.page-legal ul li{
 margin-bottom:.5em
 }
-.scrollingbar1{
-position:relative;
-color:#ff8c00;
-overflow:hidden;
-position:initial;
-width:100%;
-height:4.5vw;
-margin-top:10px
-}
-.scrollingbar2{
-position:relative;
-color:#ff8c00;
-overflow:hidden;
-position:absolute;
-width:100%;
-height:4.5vw;
-margin-top:-2.5vw
-}
-.scrollingbar3{
-position:relative;
-color:#ff8c00;
-overflow:hidden;
-position:absolute;
-width:100%;
-height:4.5vw;
-margin-top:-1.5vw
-}
-.scrollingbar4{
-position:relative;
-color:#ff8c00;
-overflow:hidden;
-position:absolute;
-width:100%;
-height:4.5vw;
-margin-top:10px
-}
-.scrollingbar1 p,.scrollingbar3 p{
-text-transform:uppercase;
-position:absolute;
-margin:0;
-font-size:2vw;
-line-height:2.4vw;
-text-align:left;
--moz-transform:translateX(0%);
--webkit-transform:translateX(0%);
-transform:translate(0);
--moz-animation:scroll-left 22s linear infinite;
--webkit-animation:scroll-left 22s linear infinite;
-animation:scroll-left 22s linear infinite;
-white-space:nowrap
-}
-.scrollingbar3 p{
--moz-animation:scroll-left 18s linear infinite;
--webkit-animation:scroll-left 18s linear infinite;
-animation:scroll-left 18s linear infinite
-}
-.scrollingbar2 p,.scrollingbar4 p{
-text-transform:uppercase;
-position:absolute;
-margin:0;
-font-size:2vw;
-line-height:2.4vw;
-text-align:left;
--moz-transform:translateX(-100%);
--webkit-transform:translateX(-100%);
-transform:translate(-100%);
--moz-animation:scroll-right 25s linear infinite;
--webkit-animation:scroll-right 25s linear infinite;
-animation:scroll-right 25s linear infinite;
-white-space:nowrap
-}
-.scrollingbar4 p{
--moz-animation:scroll-right 30s linear infinite;
--webkit-animation:scroll-right 30s linear infinite;
-animation:scroll-right 30s linear infinite
-}
 @-moz-keyframes scroll-left{
 0%{
 -moz-transform:translateX(0%)
@@ -8545,10 +8480,6 @@ button.minmaxify-ok{
 background-color:#0f0;
 color:#000!important;
 border-color:#0f0
-}
-.scrollingbar1,.scrollingbar2,.scrollingbar3,.scrollingbar4{
-height:6vw;
-overflow:hidden!important
 }
 img.scroll-canary,img.scroll-yellow,img.scroll-department,img.scroll-store{
 height:6vw
