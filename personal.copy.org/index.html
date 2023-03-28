@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Copy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal Copy">
+    <script src="https:code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https:cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body ontouchstart="" data-text="loading...">
+
+<header id="primary-header" class="primary-header fixed">
+<!--?xml version="1.0" encoding="UTF-8"?-->
+    <svg version="1.1" xmlns="http:www.w3.org/2000/svg" xmlns:xlink="http:www.w3.org/1999/xlink" x="0px"
+            y="0px" viewBox="0 0 1366 173" style="enable-background:new 0 0 1366 173;" xml:space="preserve">
+       <g id="logo" fill="#000000" vertor-effect="non-scaling-stroke">
+           <path class="st0" d="M30.58,20.21h29.76c23.97,0,39.55,11.39,39.55,40.35v0.4c0,28.96-15.58,40.35-39.55,40.35H26.38v50.94
+               c0.2,3.99-3.2,6.39-6.39,6.39c-2.8,0-5.99-2.4-5.99-6.39V37.78C14,19.01,14,20.21,30.58,20.21z M87.71,60.55
+               c0-22.37-8.99-28.96-27.36-28.96H26.38v58.13h33.96c18.38,0,27.36-6.39,27.36-28.76V60.55z"/>
+           <path class="st0" d="M130.85,156.43c-12.38-0.2-11.39-1.8-11.39-18.78V39.18c0-18.78-1.2-18.98,14.78-18.98h64.72v0.2
+               c3.2,0,5.39,2.2,5.39,5.39c0,3-2.2,5.39-5.39,5.39v0.4h-67.11v50.73h58.72c3.2,0,5.39,2.2,5.39,5.79c0,3.4-2.2,5.59-5.39,5.59
+               h-58.72v51.33h67.11c3.6,0,5.59,2.6,5.59,5.79c0,3-2,5.59-5.59,5.59H130.85z"/>
+           <path class="st0" d="M225.14,35.19c0-15.78,0.8-16.38,14.38-16.38h30.76c23.97,0,39.55,11.39,39.55,36.35v0.4
+               c0,14.58-7.99,27.16-17.78,32.96c4.99,3.2,8.79,9.99,11.59,18.98c3.99,12.58,2.8,34.15,5.79,43.54c1.2,4,0.4,7.39-2.6,8.59
+               c-3.4,1.4-6.59,0-7.79-3.4c-3.6-10.39-2.8-34.95-6.79-46.94c-3.4-10.39-9.39-17.38-20.37-17.38h-34.36v57.53
+               c0,5.59-3.4,7.59-6.39,7.59c-2.6,0-5.99-2-5.99-7.59V35.19z M297.64,55.16c0-18.38-8.99-24.97-27.36-24.97h-32.76v50.14h32.76
+               c18.38,0,27.36-8.39,27.36-24.77V55.16z"/>
+           <path class="st0" d="M415.09,47.57c0.4,4.79-1.2,6.59-4.59,7.59c-3.2,1-6.79-1.2-7.39-5.39c-2.6-17.78-11.98-26.17-29.76-26.57
+               c-18.18-0.4-31.56,8.99-31.56,25.17c0,16.78,10.39,24.17,32.36,29.56c30.76,7.59,46.54,18.58,46.54,45.34
+               c0,26.57-21.57,39.55-47.74,39.15c-27.76-0.4-47.54-11.98-48.74-44.34c0-3,1.8-6.39,5.39-6.59c3-0.2,6.19,1.4,6.39,6.39
+               c1.4,23.37,15.58,32.96,36.75,33.36c17.38,0.4,35.35-8.39,35.75-26.57c0.4-19.18-7.19-28.16-36.35-35.75
+               c-27.36-7.19-42.54-14.98-42.74-40.35c-0.2-22.77,16.18-36.75,44.34-36.35C400.71,12.62,413.3,28.2,415.09,47.57z"/>
+           <path class="st0" d="M539.93,88.12c0,43.74-21.77,70.31-53.73,70.31H486c-32.36-0.2-53.73-26.57-53.73-70.31
+               c0-41.95,22.17-71.71,53.73-71.71C518.36,16.41,539.93,46.37,539.93,88.12z M486.2,147.04c24.37-0.2,41.75-24.97,41.35-58.92
+               C527.15,53.56,510.57,28,486,28c-25.17,0-41.75,25.57-41.75,60.12C444.26,122.08,461.63,147.04,486.2,147.04z"/>
+           <path class="st0" d="M555.72,24.4c0-9.19,10.39-10.19,14.58-3l67.11,114.85V21.8c0-3.2,3-5.19,5.99-5.19c3,0,5.79,2,5.79,5.19
+               v127.83c0,8.79-11.19,10.79-15.78,3L567.3,38.98v112.25c0,4.39-1.2,6.99-5.79,6.99c-3.79,0-5.79-3-5.79-6.99V24.4z"/>
+           <path class="st0" d="M736.88,112.89h-46.94l-13.18,41.75c-1.2,4-4.79,5.59-8.39,4.19c-3.4-1.4-3.79-4.59-2.6-8.39h-0.2L704.53,24.2
+               c1.8-6.19,5.19-8.99,9.19-8.99c5.39,0,7.39,3.4,8.99,8.99l38.55,126.24c1.2,3.99,0.8,7.19-2.6,8.59c-3.6,1.4-7.19-0.2-8.39-4.19
+               L736.88,112.89z M693.34,101.5h40.15l-19.18-65.52h-1.4L693.34,101.5z"/>
+           <path class="st0" d="M777.83,24.2c0-4.79,3-7.39,6.39-7.39c3,0,5.79,2.6,5.79,7.39v120.84h54.33c3.6,0,5.59,2.4,5.59,5.59
+               c0,2.8-2,5.79-5.59,5.79h-55.33c-12.19-0.2-11.19-1.8-11.19-18.78V24.2z"/>
+           <path class="st0" d="M1016.33,61.15c0.6,3.59-0.6,6.99-3.99,7.39c-3.6,0.4-7.59-1-8.39-5.79c-3-18.78-15.18-32.76-34.55-32.76
+               c-24.57,0-40.35,23.57-41.55,58.13c1.2,33.96,16.98,58.92,41.55,58.92c19.37,0,32.36-14.18,35.95-36.55
+               c0.6-4.2,5.39-5.79,7.99-4.99c3.4,0.8,4.99,3.99,4.19,8.59c-4.19,23.97-19.97,44.34-48.14,44.34c-32.16,0-52.73-26.57-53.93-70.31
+               c0-1.4,0.2-2.6,0.2-4c2.4-40.55,22.77-65.52,53.73-65.52C997.96,18.61,1012.74,38.18,1016.33,61.15z"/>
+           <path class="st0" d="M1140.97,88.12c0,43.74-21.77,70.31-53.73,70.31h-0.2c-32.36-0.2-53.73-26.57-53.73-70.31
+               c0-41.95,22.17-71.71,53.73-71.71C1119.4,16.41,1140.97,46.37,1140.97,88.12z M1087.24,147.04c24.37-0.2,41.75-24.97,41.35-58.92
+               c-0.4-34.56-16.98-60.12-41.55-60.12c-25.17,0-41.75,25.57-41.75,60.12C1045.3,122.08,1062.68,147.04,1087.24,147.04z"/>
+           <path class="st0" d="M1173.34,20.21h29.76c23.97,0,39.55,11.39,39.55,40.35v0.4c0,28.96-15.58,40.35-39.55,40.35h-33.95v50.94
+               c0.2,3.99-3.2,6.39-6.39,6.39c-2.8,0-5.99-2.4-5.99-6.39V37.78C1156.76,19.01,1156.76,20.21,1173.34,20.21z M1230.46,60.55
+               c0-22.37-8.99-28.96-27.36-28.96h-33.95v58.13h33.95c18.38,0,27.36-6.39,27.36-28.76V60.55z"/>
+           <path class="st0" d="M1258.43,28.4c-2-3.4-0.8-6.79,1.8-8.39c2.4-1.6,6.19-0.4,8.19,2.8l36.75,60.92l35.95-60.12
+               c2.2-3.6,5.39-4.79,7.99-3.2c2.6,1.2,4,4.59,1.8,8.39l-39.95,67.51v55.73c0,3.79-3.2,6.39-5.99,6.39c-3,0-6.19-2.6-6.19-6.39V96.31
+               L1258.43,28.4z"/>
+       </g>
+    </svg>
+</header>
+
+
+<br><br><br><br><br><br><br><br>
+<!-- <div class="title_wrap">
+    <button class="button" id="random" onclick="randomizeContent('content_group')">Two or more voices&nbsp;&nbsp;&nbsp;</button>
+</div> -->
+
+
+<!-- instruction, Intro -->
+    <div id="intro">
+        <div class="title">
+            <p>Personal Copy (U) is an obscure, unclear, invisible, omitted, unsorted, vague, blurring, unselected, dubious, unsuccessful, enigmatic, unpicked, indefinite, erased, inconclusive, indeterminate, temporary, ephemeral, diappeared, hidden, secret registories. After all, this world is the realm of creation and work, and it is here that invisible time and efforts are accumulated to create a visible realm.</p>
+        </div>
+        <!--close button-->
+        <div class="x_button">×</div>
+    </div>
+    <script>
+        $('#intro').find('.x_button').click(function() {
+            $('#intro').hide()
+        })
+    </script>
+
+
+<div id="index" class="main">
+  <div id="container" class="row" style="position: relative; float:left;">
+
+
+    <!-- 24 -->
+    <div class="content_group">
+        <div class="index_entry" onclick="openAndClose_drawer(this)">
+            <div class="container">
+                <div class="row1">↓</div>
+                <div class="row2">1283–1344</div>
+                <div class="row3">Automate to tools</div>
+                <div class="row4">Publication	2022	Inkjet printing	4.5 × 6.5 inches, 124 pages</div>
+            </div>
+        </div>
+        <div class="index_drawer closed">
+            <div class="index_content">
+                <div class="row1"></div>
+                <div class="row2"></div>
+                <div class="row3">
+                    <img src="assets/uploads/17-1.jpg" alt="">
+                </div>
+                <div class="row4"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 23 -->
+    <div class="content_group">
+        <div class="index_entry" onclick="openAndClose_drawer(this)">
+                <div class="container">
+                <div class="row1">↓</div>
+                <div class="row2">1282</div>
+                <div class="row3">Used Publications</div>
+                <div class="row4">Publication	2022	Inkjet printing	9.25 × 12.25 inches</div>
+            </div>
+        </div>
+        <div class="index_drawer closed">
+            <div class="index_content">
+                <div class="row1"></div>
+                <div class="row2"></div>
+                <div class="row3">
+                    <img src="assets/uploads/31_1.jpg" alt="">
+                    <img src="assets/uploads/31_2.jpg" alt="">
+                    <img src="assets/uploads/31_3.jpg" alt="">
+                    <img src="assets/uploads/31_4.jpg" alt="">
+                    <img src="assets/uploads/31_5.jpg" alt="">
+                    <img src="assets/uploads/31_6.jpg" alt="">
+                    <img src="assets/uploads/31_7.jpg" alt="">
+                    <img src="assets/uploads/31_8.jpg" alt="">
+                    <img src="assets/uploads/31_9.jpg" alt="">
+                    <img src="assets/uploads/31_10.jpg" alt="">
+                    <img src="assets/uploads/31_11.jpg" alt="">
+                    <img src="assets/uploads/31_12.jpg" alt="">
+                    <img src="assets/uploads/31_13.jpg" alt="">
+                    <img src="assets/uploads/31_14.jpg" alt="">
+                </div>
+                <div class="row4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 22 -->
+    <div class="content_group">
+        <div class="index_entry" onclick="openAndClose_drawer(this)">
+            <div class="container">
+                <div class="row1">↓</div>
+                <div class="row2">1228–1281</div>
+                <div class="row3">Non-Archive</div>
+                <div class="row4">Photographs	2022	Inkjet printing	220 × 280 mm, 104 pages</div>
+            </div>
+        </div>
+        <div class="index_drawer closed">
+            <div class="index_content">
+                <div class="row1"></div>
+                <div class="row2"></div>
+                <div class="row3"></div>
+                <div class="row4"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 21 -->
+    <div class="content_group">
+        <div class="index_entry" onclick="openAndClose_drawer(this)">
+            <div class="container">
+                <div class="row1">↓</div>
+                <div class="row2">1225–1227</div>
+                <div class="row3">This Manifesto is Silent. II</div>
+                <div class="row4">Installation	2022	LCD Display, Acrylic on pillow	5 inch, 28 × 20 × 6 inches</div>
+            </div>
+        </div>
+        <div class="index_drawer closed">
+            <div class="index_content">
+                <div class="row1"></div>
+                <div class="row2"></div>
+                <div class="row3"></div>
+                <div class="row4"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 20 -->
+    <div class="content_group">
+        <div class="index_entry" onclick="openAndClose_drawer(this)">
+            <div class="container">
+                <div class="row1">↓</div>
+                <div class="row2">1224</div>
+                <div class="row3">School of Art profile image</div>
+                <div class="row4">Typeface	2022		Dimensions variable</div>
+            </div>
+        </div>
+        <div class="index_drawer closed">
+            <div class="index_content">
+                <div class="row1"></div>
+                <div class="row2"></div>
+                <div class="row3"></div>
+                <div class="row4"></div>
+            </div>
+        </div>
+        </div>
+
+
+    <!-- 19 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">1214–1223</div>
+            <div class="row3">Dogleg Brick</div>
+            <div class="row4">Website	2022	HTML, JavaScript	Dimensions variable</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3"></div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- 18 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">1212–1213</div>
+            <div class="row3">Score Type</div>
+            <div class="row4">Typeface	2022		Dimensions variable</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3">
+                <img src="assets/uploads/16-1.jpg" alt="">
+                <img src="assets/uploads/16-2.jpg" alt="">
+                <img src="assets/uploads/16-3.jpg" alt="">
+                <img src="assets/uploads/16-4.jpg" alt="">
+                <img src="assets/uploads/16-5.jpg" alt="">
+                <img src="assets/uploads/16-6.jpg" alt="">
+                <img src="assets/uploads/16-7.jpg" alt="">
+                <img src="assets/uploads/16-8.jpg" alt="">
+                <img src="assets/uploads/16-9.jpg" alt="">
+                <img src="assets/uploads/16-10.jpg" alt="">
+                <img src="assets/uploads/16-11.jpg" alt="">
+                <img src="assets/uploads/16-12.jpg" alt="">
+                <img src="assets/uploads/16-13.jpg" alt="">
+                <img src="assets/uploads/16-14.jpg" alt="">
+                <img src="assets/uploads/16-15.jpg" alt="">
+                <img src="assets/uploads/16-16.jpg" alt="">
+                <img src="assets/uploads/16-17.jpg" alt="">
+                <img src="assets/uploads/16-18.jpg" alt="">
+                <img src="assets/uploads/16-19.jpg" alt="">
+                <img src="assets/uploads/16-20.jpg" alt="">
+                <img src="assets/uploads/16-21.jpg" alt="">
+                <img src="assets/uploads/16-22.jpg" alt="">
+                <img src="assets/uploads/16-23.jpg" alt="">
+                <img src="assets/uploads/16-24.jpg" alt="">
+                <img src="assets/uploads/16-25.jpg" alt="">
+                <img src="assets/uploads/16-26.jpg" alt="">
+                <img src="assets/uploads/16-27.jpg" alt="">
+                <img src="assets/uploads/16-28.jpg" alt="">
+                <img src="assets/uploads/16-29.jpg" alt="">
+                <img src="assets/uploads/16-30.jpg" alt="">
+                <img src="assets/uploads/16-41.jpg" alt="">
+                <img src="assets/uploads/16-42.jpg" alt="">
+                <img src="assets/uploads/16-43.jpg" alt="">
+                <img src="assets/uploads/16-44.jpg" alt="">
+                <img src="assets/uploads/16-45.jpg" alt="">
+                <img src="assets/uploads/16-46.jpg" alt="">
+                <img src="assets/uploads/16-47.jpg" alt="">
+                <img src="assets/uploads/16-48.jpg" alt="">
+                <img src="assets/uploads/16-49.jpg" alt="">
+                <img src="assets/uploads/16-50.jpg" alt="">
+                <img src="assets/uploads/16-51.jpg" alt="">
+                <img src="assets/uploads/16-52.jpg" alt="">
+                <img src="assets/uploads/16-53.jpg" alt="">
+                <img src="assets/uploads/16-54.jpg" alt="">
+                <img src="assets/uploads/16-55.jpg" alt="">
+                <img src="assets/uploads/16-56.jpg" alt="">
+                <img src="assets/uploads/16-57.jpg" alt="">
+                <img src="assets/uploads/16-58.jpg" alt="">
+                <img src="assets/uploads/16-59.jpg" alt="">
+                <img src="assets/uploads/16-60.jpg" alt="">
+                <img src="assets/uploads/16-61.jpg" alt="">
+                <img src="assets/uploads/16-62.jpg" alt="">
+                <img src="assets/uploads/16-63.jpg" alt="">
+                <img src="assets/uploads/16-64.jpg" alt="">
+                <img src="assets/uploads/16-65.jpg" alt="">
+                <img src="assets/uploads/16-66.jpg" alt="">
+                <img src="assets/uploads/16-67.jpg" alt="">
+                <img src="assets/uploads/16-68.jpg" alt="">
+                <img src="assets/uploads/16-69.jpg" alt="">
+                <img src="assets/uploads/16-70.jpg" alt="">
+                <img src="assets/uploads/16-71.jpg" alt="">
+                <img src="assets/uploads/16-72.jpg" alt="">
+                <img src="assets/uploads/16-73.jpg" alt="">
+
+            </div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 17 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">1210–1211</div>
+            <div class="row3">Yale Photo Alumni Panel</div>
+            <div class="row4">Moving Image	2022	Digital video	5 seconds.</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3"></div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 16 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">1200–1209</div>
+            <div class="row3">Ghost Particle</div>
+            <div class="row4">Website	2022	HTML, JavaScript	Dimensions variable</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3"></div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 15 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">1190–1199</div>
+            <div class="row3">The Live of Asako Iwama</div>
+            <div class="row4">Website	2022	HTML, JavaScript	Dimensions variable</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3">
+                <img src="assets/uploads/12_001.jpg" alt="">
+                <img src="assets/uploads/12_002.jpg" alt="">
+                <img src="assets/uploads/12_003.jpg" alt="">
+            </div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- 14 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">1189</div>
+            <div class="row3">Visiting Artist Lecture in Photography: Ed Atkins</div>
+            <div class="row4">Video	2022	Single-channel digital video, color, sound	14 seconds.</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3"></div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 13 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">685–1188</div>
+            <div class="row3">Magnetic Film</div>
+            <div class="row4">Video	2022	Three-channel digital video, color, sound	2 minutes 54 seconds.</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3"></div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 12 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">381–684</div>
+            <div class="row3">Magnetic Film</div>
+            <div class="row4">Publication	2022	Inkjet printing	112 × 182 mm, 612 pages</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3">
+                <img src="assets/uploads/10A_1.jpg" alt="">
+            </div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 11 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">371–380</div>
+            <div class="row3">A Recording Score</div>
+            <div class="row4">Website	2022	HTML, JavaScript	Dimensions variable</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3">
+                <img src="assets/uploads/9A_1.jpg" alt="">
+                <img src="assets/uploads/9A_2.jpg" alt="">
+            </div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 10 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">365–370</div>
+            <div class="row3">News From New Haven</div>
+            <div class="row4">Moving Image	2022	Processing	40 seconds.</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3"></div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 9 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">364</div>
+            <div class="row3">Deep Rooted Tree</div>
+            <div class="row4">Website	2022	HTML, JavaScript	Dimensions variable</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3"></div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 8 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">327–363</div>
+            <div class="row3">Deep Rooted Tree</div>
+            <div class="row4">Publication	2021	Inkjet printing	188 × 257 mm, 106 pages</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3"></div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 7 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">317–326</div>
+            <div class="row3">Vibrant Matter</div>
+            <div class="row4">Website	2021	HTML, JavaScript	Dimensions variable</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3"></div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 6 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">70–316</div>
+            <div class="row3">Vibrant Matter</div>
+            <div class="row4">Video	2021	Single-channel HD video, color, sound	4 minutes 7 seconds.</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3">
+                <img src="assets/uploads/6A_1.JPG" alt="">
+                <img src="assets/uploads/6A_2.JPG" alt="">
+                <img src="assets/uploads/6A_3.JPG" alt="">
+                <img src="assets/uploads/6A_4.JPG" alt="">
+                <img src="assets/uploads/6A_5.JPG" alt="">
+            </div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">9–69</div>
+            <div class="row3">Untitled (Shubert Theater)</div>
+            <div class="row4">Publication, Video	2021 	Single-channel HD video, color, sound	1 minutes 10 seconds.</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3">
+                <img src="assets/uploads/5_1.jpg" alt="">
+                <img src="assets/uploads/5_2.jpg" alt="">
+                <img src="assets/uploads/5_3.jpg" alt="">
+                <img src="assets/uploads/5_4.jpg" alt="">
+                <img src="assets/uploads/5_5.jpg" alt="">
+                <img src="assets/uploads/5_6.jpg" alt="">
+                <img src="assets/uploads/5_7.jpg" alt="">
+                <img src="assets/uploads/5_8.jpg" alt="">
+                <img src="assets/uploads/5_9.jpg" alt="">
+                <img src="assets/uploads/5_10.jpg" alt="">
+                <img src="assets/uploads/5_11.jpg" alt="">
+                <img src="assets/uploads/5_12.jpg" alt="">
+                <img src="assets/uploads/5_13.jpg" alt="">
+                <img src="assets/uploads/5_14.jpg" alt="">
+                <img src="assets/uploads/5_15.jpg" alt="">
+                <img src="assets/uploads/5_16.jpg" alt="">
+                <img src="assets/uploads/5_17.jpg" alt="">
+                <img src="assets/uploads/5_18.jpg" alt="">
+                <img src="assets/uploads/5_19.jpg" alt="">
+                <img src="assets/uploads/5_20.jpg" alt="">
+                <img src="assets/uploads/5_21.jpg" alt="">
+                <img src="assets/uploads/5_22.jpg" alt="">
+                <img src="assets/uploads/5_23.jpg" alt="">
+                <img src="assets/uploads/5_24.jpg" alt="">
+                <img src="assets/uploads/5_25.jpg" alt="">
+                <img src="assets/uploads/5_26.jpg" alt="">
+                <img src="assets/uploads/5_27.jpg" alt="">
+                <img src="assets/uploads/5_28.jpg" alt="">
+                <img src="assets/uploads/5_29.jpg" alt="">
+                <img src="assets/uploads/5_30.jpg" alt="">
+                <img src="assets/uploads/5_31.jpg" alt="">
+                <img src="assets/uploads/5_32.jpg" alt="">
+            </div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">8</div>
+            <div class="row3">Visiting Artist Lecture in Photography: Thilde Jensen</div>
+            <div class="row4">Poster	2021	Carving on aluminum foil	11 × 8.5 inches each, set of 4</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3">
+                <img src="assets/uploads/4_1.jpg" alt="">
+                <img src="assets/uploads/4_2.jpg" alt="">
+                <img src="assets/uploads/4_3.jpg" alt="">
+                <img src="assets/uploads/4_4.jpg" alt="">
+                <img src="assets/uploads/4_5.jpg" alt="">
+                <img src="assets/uploads/4_6.jpg" alt="">
+                <img src="assets/uploads/4_7.jpg" alt="">
+                <img src="assets/uploads/4_8.jpg" alt="">
+                <img src="assets/uploads/4_9.png" alt="">
+                <img src="assets/uploads/4_10.png" alt="">
+            </div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">7</div>
+            <div class="row3">Cushing No.2</div>
+            <div class="row4">Typeface	2021 		Dimensions variable</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3">
+                <img src="assets/uploads/3_1.jpg" alt="">
+                <img src="assets/uploads/3_2.jpg" alt="">
+                <img src="assets/uploads/3_3.jpg" alt="">
+                <img src="assets/uploads/3_4.jpg" alt="">
+                <img src="assets/uploads/3_5.jpg" alt="">
+                <img src="assets/uploads/3_6.jpg" alt="">
+                <img src="assets/uploads/3_7.jpg" alt="">
+                <img src="assets/uploads/3_8.jpg" alt="">
+                <img src="assets/uploads/3_9.jpg" alt="">
+                <img src="assets/uploads/3_10.jpg" alt="">
+                <img src="assets/uploads/3_11.jpg" alt="">
+                <img src="assets/uploads/3_12.jpg" alt="">
+                <img src="assets/uploads/3_13.jpg" alt="">
+                <img src="assets/uploads/3_14.jpg" alt="">
+                <img src="assets/uploads/3_15.jpg" alt="">
+                <img src="assets/uploads/3_16.jpg" alt="">
+                <img src="assets/uploads/3_17.jpg" alt="">
+                <img src="assets/uploads/3_18.jpg" alt="">
+                <img src="assets/uploads/3_19.jpg" alt="">
+                <img src="assets/uploads/3_20.jpg" alt="">
+                <img src="assets/uploads/3_21.jpg" alt="">
+                <img src="assets/uploads/3_22.jpg" alt="">
+                <img src="assets/uploads/3_23.jpg" alt="">
+                <img src="assets/uploads/3_24.jpg" alt="">
+                <img src="assets/uploads/3_25.jpg" alt="">
+                <img src="assets/uploads/3_26.jpg" alt="">
+                <img src="assets/uploads/3_27.jpg" alt="">
+                <img src="assets/uploads/3_28.jpg" alt="">
+            </div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">3–6</div>
+            <div class="row3">Paprika! Volume 7, Issue 01 The Moment Before</div>
+            <div class="row4">Publication	2021	Offset lithography	25 × 22.75 inches, 1000 edition</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3"></div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- 1 -->
+    <div class="content_group">
+    <div class="index_entry" onclick="openAndClose_drawer(this)">
+        <div class="container">
+            <div class="row1">↓</div>
+            <div class="row2">1–2</div>
+            <div class="row3">Untitled</div>
+            <div class="row4">Photographs	2021	Archival inkjet printing	11 × 8.5 inches each, set of 8</div>
+        </div>
+    </div>
+    <div class="index_drawer closed">
+        <div class="index_content">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3">
+                <img src="assets/uploads/1_a.jpg" alt="">
+                <img src="assets/uploads/1_b.jpg" alt="">
+                <img src="assets/uploads/1_c.jpg" alt="">
+                <img src="assets/uploads/1_d.jpg" alt="">
+                <img src="assets/uploads/1_e.jpg" alt="">
+                <img src="assets/uploads/1_f.jpg" alt="">
+                <img src="assets/uploads/1_g.jpg" alt="">
+                <img src="assets/uploads/1_h.jpg" alt="">
+                <img src="assets/uploads/1_i.jpg" alt="">
+                <img src="assets/uploads/1_j.jpg" alt="">
+            </div>
+            <div class="row4"></div>
+        </div>
+    </div>
+    </div>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+
+<div class="bottom-buttons">
+    <button class="back_to_top" onclick="back_to_top('top_location')">back to top</button>
+    <button class="submit" id="random" onclick="randomizeContent('content_group')">Two or more voices&nbsp;&nbsp;&nbsp;</button>
+    <button class="contact"><a href="mailto:mindyseu@gmail.com">contact</a></button>
+    <button class="submit"><a href="https://www.cyberfeminismindex.com/about/submit">submit</a></button>
+  </div>
+
+
+
+</body>
+
+<script type="text/javascript" src="assets/js/function.js"></script>
+<script>
+document.getElementById('container').addEventListener('click', function(e) {
+const tgt = e.target;
+tgt.classList.toggle('zoomed')
+})
+
+const selects = custom.querySelectorAll('select');
+for (const select of selects) {
+  const div = document.createElement('div');
+  const header = document.createElement('div');
+  const datalist = document.createElement('datalist');
+  const optgroups = select.querySelectorAll('optgroup');
+  const span = document.createElement('span');
+  const options = select.options;
+  const parent = select.parentElement;
+  const multiple = select.hasAttribute('multiple');
+  function onclick(e) {
+    const disabled = this.hasAttribute('data-disabled');
+    select.value = this.dataset.value;
+    span.innerText = this.dataset.label;
+    if (disabled) return;
+    if (multiple) {
+      if (e.shiftKey) {
+const checked = this.hasAttribute("data-checked");
+if (checked) {
+  this.removeAttribute("data-checked");
+} else {
+  this.setAttribute("data-checked", "");
+}
+      } else {
+const options = div.querySelectorAll('.option');
+for (let i = 0; i < options.length; i++) {
+  const option = options[i];
+  option.removeAttribute("data-checked");
+}
+this.setAttribute("data-checked", "");
+      }
+    }
+  }
+
+  function onkeyup(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    if (e.keyCode === 13) {
+      this.click();
+    }
+  }
+
+  div.classList.add('select');
+  header.classList.add('header');
+  div.tabIndex = 1;
+  select.tabIndex = -1;
+  span.innerText = select.label;
+  header.appendChild(span);
+
+  for (const attribute of select.attributes) {
+    div.dataset[attribute.name] = attribute.value;
+  }
+  for (let i = 0; i < options.length; i++) {
+    const option = document.createElement('div');
+    const label = document.createElement('div');
+    const o = options[i];
+    for (const attribute of o.attributes) {
+      option.dataset[attribute.name] = attribute.value;
+    }
+    option.classList.add('option');
+    label.classList.add('label');
+    label.innerText = o.label;
+    option.dataset.value = o.value;
+    option.dataset.label = o.label;
+    option.onclick = onclick;
+    option.onkeyup = onkeyup;
+    option.tabIndex = i + 1;
+    option.appendChild(label);
+    datalist.appendChild(option);
+  }
+  div.appendChild(header);
+  for (const o of optgroups) {
+    const optgroup = document.createElement('div');
+    const label = document.createElement('div');
+    const options = o.querySelectorAll('option');
+
+    Object.assign(optgroup, o);
+    optgroup.classList.add('optgroup');
+    label.classList.add('label');
+    label.innerText = o.label;
+    optgroup.appendChild(label);
+    div.appendChild(optgroup);
+    for (const o of options) {
+      const option = document.createElement('div');
+      const label = document.createElement('div');
+
+      for (const attribute of o.attributes) {
+option.dataset[attribute.name] = attribute.value;
+      }
+      option.classList.add('option');
+      label.classList.add('label');
+      label.innerText = o.label;
+      option.tabIndex = i + 1;
+      option.dataset.value = o.value;
+      option.dataset.label = o.label;
+      option.onclick = onclick;
+      option.onkeyup = onkeyup;
+      option.tabIndex = i + 1;
+      option.appendChild(label);
+      optgroup.appendChild(option);
+    }
+  }
+
+  div.onclick = (e) => {
+    e.preventDefault();
+  };
+
+  parent.insertBefore(div, select);
+  header.appendChild(select);
+  div.appendChild(datalist);
+  datalist.style.top = `${header.offsetTop + header.offsetHeight}px`;
+
+  div.onclick = (e) => {
+    if (!multiple) {
+      const open = this.hasAttribute("data-open");
+      e.stopPropagation();
+      if (open) {
+div.removeAttribute("data-open");
+      } else {
+div.setAttribute("data-open", "");
+      }
+    }
+  };
+
+  div.onkeyup = (event) => {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+      div.click();
+    }
+  };
+
+  document.addEventListener('click', (e) => {
+    if (div.hasAttribute("data-open")) {
+      div.removeAttribute("data-open");
+    }
+  });
+
+  const width = Math.max(...Array.from(options).map((e) => {
+    span.innerText = e.label;
+    return div.offsetWidth;
+  }));
+
+  console.log(width);
+  div.style.width = `${width}px`;
+}
+document.forms[0].onsubmit = (e) => {
+  const data = new FormData(this);
+  e.preventDefault();
+  submit.innerText = JSON.stringify([...data.entries()]);
+};
+
+</script>
+</html>
