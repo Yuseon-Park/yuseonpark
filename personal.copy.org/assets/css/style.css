@@ -242,7 +242,7 @@ img {
 }
 
 /* button */
-.button {
+button {
   display: inline;
   text-align: center;
   cursor: pointer;
@@ -273,16 +273,19 @@ img {
   position: fixed;
   bottom: 20px;
   left: 18px;
-  
+  height: 2em;
+  line-height: 1.4em;
+  padding: 0.25em 0.5em;
+  background-color: #0065ff;
+  border: 2px solid #0065ff;
+  color: #fff;
+  cursor: pointer;
+  margin: 0.25rem;
 }
 
 .bottom-buttons button a {
   text-decoration: none;
   color: black;
-}
-
-.submit {
-  box-shadow: 0 0 10px #CCCCCC;
 }
 
 /* intro */
