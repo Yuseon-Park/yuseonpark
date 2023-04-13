@@ -1,16 +1,10 @@
 @font-face {
-  font-family: "Union";
+  font-family: "JLPirelli";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Union-Regular.woff") format("woff");
+  src: url("../fonts/JLPirelli-Regular.woff") format("woff");
 }
 
-@font-face {
-  font-family: "ScoreRound";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/ScoreRound.woff") format("woff");
-}
 
 * {
   box-sizing: border-box;
@@ -23,7 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: calc(100vh - 5rem);
-  font-family: "Union";
+  font-family: "JLPirelli";
   font-size: 24px;
   line-height: 1.2;
   color: #000000;
@@ -183,7 +177,7 @@ color: #FFFFFF;
 
 .index_drawer .index_content {
   display: grid;
-  grid-template-columns: 70px 10% 40% 40%;
+  grid-template-columns: 70px 0px 98% 70px;
   grid-gap: 0px;
   padding-left: 0vw;
   margin-left: 0vw;
@@ -201,7 +195,7 @@ color: #FFFFFF;
   max-height: 0;
 }
 
-/* text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,.15); */
+  /* grid-template-columns: 70px 10% 40% 40%; */
 
 /* scrollbar */
 
@@ -249,7 +243,7 @@ button {
   background-color: transparent;
   padding: 0vh;
   color: #000000;
-  font-family: "Union";
+  font-family: "JLPirelli";
   font-size: 24px;
   line-height: 1.2;
   border: none;
@@ -311,7 +305,7 @@ button {
   font-size: 24px;
   display: flex;
   align-items: center;
-  font-family: "Union";
+  font-family: "JLPirelli";
   color: #000000;
   visibility: visible;
 }
