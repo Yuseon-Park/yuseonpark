@@ -60,8 +60,8 @@ svg {
 .primary-header {
   padding: 0;
   transition: padding 0.3s, margin 0.3s, box-shadow 0.8s;
-  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
-  background-color: #FFFFFF;
+  /* box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15); */
+  background-color: transparent;
 }
 
 .primary-header {
@@ -103,7 +103,7 @@ svg {
 
 .container {
   display: grid;
-  grid-template-columns: 70px 10% 40% 40%;
+  grid-template-columns: 10% 30% 10% 10% 40%;
   grid-gap: 0px;
   margin-left: 6px;
   margin-right: 6px;
@@ -111,6 +111,7 @@ svg {
   color: #000000;
   background-color: transparent;
 }
+
 .container > div {
   text-align: left;
 }
@@ -168,16 +169,17 @@ height: 100%
 }
 
 .index_drawer a {
-color: #FFFFFF;
+color: #00ff00;
+text-decoration: underline;
 }
 
 .index_drawer a:hover {
-color: #FFFFFF;
+color: #000000;
 }
 
 .index_drawer .index_content {
   display: grid;
-  grid-template-columns: 70px 0px 98% 70px;
+  grid-template-columns: 6px 0px 100% 6px;
   grid-gap: 0px;
   padding-left: 0vw;
   margin-left: 0vw;
@@ -225,13 +227,15 @@ color: #FFFFFF;
 
 img {
   display: inline-block;
-  height: 15.2vh;
+  height: 14vh;
   width: auto;
   margin-right: 1px;
+  margin-top: 1px;
+  margin-bottom: 1px;
   transition: all 500ms ease;
   cursor: pointer;
-  border: 1px solid rgba(0,0,0,0.05);
-  box-shadow: 0 0 15px rgba(125,125,125,0.18);
+  /* border: 1px solid rgba(0,0,0,0.05);
+  box-shadow: 0 0 15px rgba(125,125,125,0.18); */
   /* border-radius: 20px; */
 }
 
