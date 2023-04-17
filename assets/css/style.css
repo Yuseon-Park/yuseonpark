@@ -31,7 +31,7 @@ body {
     width: 100% !important;
     height: 100%;
     overflow-y: auto;
-    font-size: 1.5vh;
+    font-size: 1.3vh;
     line-height: 1.3;
   }
 }
@@ -344,6 +344,17 @@ img {
   font-family: "GroteskRemix";
 }
 
+@media (min-width: 300px) and (max-width: 769px) {
+  .index_wrap {
+    z-index: 10;
+    font-family: "GroteskRemix";
+    position: relative;
+    word-break: keep-all;
+    font-size: 1.3vh;
+    text-align: left;
+    line-height: 1.3;
+  }  
+}
 a.website-gallery{
   padding: 4px 5px 2px;
   border: 1px solid #00ff00;
