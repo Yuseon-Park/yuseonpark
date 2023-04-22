@@ -123,13 +123,13 @@ svg {
 }
 
 @media (min-width: 300px) and (max-width: 769px){
-.container {
-    display: grid;
-    grid-template-columns: 20px 40px 40% 30%;
-    grid-gap: 8px;
-    margin-left: 6px;
-}
-}
+  .container {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-gap: 0px;
+      margin-left: 6px;
+  }
+  }
 
 
 a:link {
