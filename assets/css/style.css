@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "Copy-Sans";
+  font-family: "HelveticaLTPro-Narrow";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Copy-Sans.woff") format("woff");
+  src: url("../fonts/HelveticaLTPro-Narrow.woff") format("woff");
 }
 
 * {
@@ -16,12 +16,10 @@ body {
   display: flex;
   /* flex-direction: column; */
   min-height: calc(100vh - 5rem);
-  font-family: "Copy-Sans";
+  font-family: "HelveticaLTPro-Narrow";
   font-size: 1.5vh;
   line-height: 1.3;
   color: #000000;
-  text-transform: uppercase;
-
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -322,7 +320,7 @@ img {
 
 .index_wrap {
   z-index: 10;
-  font-family: "Copy-Sans";
+  font-family: "HelveticaLTPro-Narrow";
   position: relative;
   word-break: keep-all;
   font-size: 1.5vh;
@@ -342,13 +340,13 @@ img {
   padding-top: 0.1vh;
   padding-right: 0.1vh;
 
-  font-family: "Copy-Sans";
+  font-family: "HelveticaLTPro-Narrow";
 }
 
 @media (min-width: 300px) and (max-width: 769px) {
   .index_wrap {
     z-index: 10;
-    font-family: "Copy-Sans";
+    font-family: "HelveticaLTPro-Narrow";
     position: relative;
     word-break: keep-all;
     font-size: 1.3vh;
@@ -365,7 +363,7 @@ a.website-gallery{
   line-height: 1.4;
   cursor:pointer;
   font-size: 1.5vh;
-  font-family: "Copy-Sans";
+  font-family: "HelveticaLTPro-Narrow";
   width:175px;
   margin-bottom:10px;
   text-align:center
@@ -379,7 +377,7 @@ a.website-gallery{
   background-color: transparent;
   padding: 0vh;
   color: #000000;
-  font-family: "Copy-Sans";
+  font-family: "HelveticaLTPro-Narrow";
   font-size: 1.7vh;
   line-height: 1.3;
   border: none;
@@ -408,7 +406,7 @@ a.website-gallery{
   line-height: 1.3;
   cursor:pointer;
   font-size:16px;
-  font-family: "Copy-Sans";
+  font-family: "HelveticaLTPro-Narrow";
   width:75px;
   margin-left:6px;
   margin-bottom:10px;
